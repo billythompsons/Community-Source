@@ -100,6 +100,11 @@ sourcesData = [
         "kwargs": {"filepath": "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/altstore.json"},
         "ids": ["eu.vcmi.vcmiclient"],
         "getAllNews": True
+    },
+    {
+            "parser": Parser.ALTSOURCE,
+     "kwargs": {"filepath": "https://factorypro-wise-apps.static.hf.space/source.json"},
+        "ids": ["com.photoaicompany.lumenchat", "com.photoaicompany.folionotes", "com.photoaicompany.tidetasks"]
     }    
 ]
 alternateAppData = {
@@ -123,7 +128,10 @@ alternateAppData = {
         "https://user-images.githubusercontent.com/64176728/211237433-ca07c970-747e-4fd1-a206-be07384183cb.png",
         "https://user-images.githubusercontent.com/64176728/211237435-27c3a84c-7213-4a55-b4d9-b7a9362ffb36.png"
         ]
-}
+},
+    "com.photoaicompany.lumenchat": {"screenshotURLs": ["https://factorypro-wise-apps.static.hf.space/screenshots/lumen.png"]},
+    "com.photoaicompany.folionotes": {"screenshotURLs": ["https://factorypro-wise-apps.static.hf.space/screenshots/folio.png"]},
+    "com.photoaicompany.tidetasks": {"screenshotURLs": ["https://factorypro-wise-apps.static.hf.space/screenshots/tide.png"]}
 
     #"eu.pokemmo.client": {
     #    "beta": False
